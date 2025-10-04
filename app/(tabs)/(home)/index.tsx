@@ -34,9 +34,9 @@ export default function HomeScreen() {
       color: "#FF9500",
     },
     {
-      title: "Banned List",
+      title: "WADA List",
       description: "Browse WADA prohibited substances",
-      route: "/banned-list",
+      route: "/(tabs)/wada-list",
       icon: "exclamationmark.triangle.fill",
       color: "#FF3B30",
     }
