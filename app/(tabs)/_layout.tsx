@@ -14,6 +14,12 @@ export default function TabLayout() {
       label: 'Home',
     },
     {
+      name: 'wada-list',
+      route: '/(tabs)/wada-list',
+      icon: 'list.bullet',
+      label: 'WADA List',
+    },
+    {
       name: 'profile',
       route: '/(tabs)/profile',
       icon: 'person.fill',
@@ -28,6 +34,10 @@ export default function TabLayout() {
         <NativeTabs.Trigger name="(home)">
           <Icon sf="house.fill" drawable="ic_home" />
           <Label>Home</Label>
+        </NativeTabs.Trigger>
+        <NativeTabs.Trigger name="wada-list">
+          <Icon sf="list.bullet" drawable="ic_list" />
+          <Label>WADA List</Label>
         </NativeTabs.Trigger>
         <NativeTabs.Trigger name="profile">
           <Icon sf="person.fill" drawable="ic_profile" />
